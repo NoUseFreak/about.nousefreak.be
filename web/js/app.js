@@ -47,7 +47,7 @@ require(['jquery', 'bootstrap', 'waypoints-sticky', 'jquery-easing'], function($
 
         // Highlight the top nav as scrolling occurs
         $body.scrollspy({
-            target: '.navbar-collapse .container'
+            target: '.navbar-collapse'
         });
 
         $formInputs
