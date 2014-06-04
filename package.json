@@ -1,0 +1,18 @@
+{
+  "name": "about.nousefreak.be",
+  "version": "0.0.0",
+  "description": "",
+  "repository": ".",
+  "author": "Dries De Peuter",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-less": "0.11.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "0.6.1",
+    "load-grunt-tasks": "0.4.0",
+    "lodash": "2.4.1",
+    "time-grunt": "~0.3.1"
+  }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>About Dries De Peuter</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Lato|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <script data-main="js/app" src="../vendor/requirejs/require.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="nav">
+    <header class="intro" data-js="intro">
+        <div class="boxed">
+            <div>
+                <img src="//www.gravatar.com/avatar/c31151cf8c6c0668204c4e8957a51d62.png?s=200" alt="Dries De Peuter" class="img-rounded"/>
+                <h1>Dries De Peuter</h1>
+                <p>Senior PHP developer</p>
+            </div>
+        </div>
+    </header>
+    <nav class="collapse navbar-collapse" data-js="affix-nav">
+        <div class="container">
+            <ul class="nav navbar-nav" role="navigation">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container">
+            <article class="row" id="projects">
+                <div class="col-xs-12">
+                    <h2>Projects</h2>
+                    <div class="media">
+                        <a class="pull-left" href="https://github.com/Cron">
+                            <img class="media-object" src="https://avatars0.githubusercontent.com/u/6886667?s=70" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <h3 class="media-heading">Cron</h3>
+                            <p>This library enables you to have only one general crontab entry that will trigger several different cronjobs that can be defined through this library. The Cron library will decide if the job needs to run or not.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="https://github.com/Notifier">
+                            <img class="media-object" src="https://avatars2.githubusercontent.com/u/4466579?s=70" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <h3 class="media-heading">Notifier</h3>
+                            <p>Notifier manages messages send to different targets.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="https://github.com/updatemypassword">
+                            <img class="media-object" src="https://avatars2.githubusercontent.com/u/5360381?s=70" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <h3 class="media-heading">Update My Password</h3>
+                            <p>Make it easier for users to update their passwords.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="row" id="portfolio">
+                <h2 class="col-xs-12">Portfolio</h2>
+                <div class="portfolio">
+                    <div class="col-md-4">
+                        <img src="img/portfolio/blog.nousefreak.be.png" class="img-responsive img-thumbnail" alt=""/>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/portfolio/thenoisefloor.be.png" class="img-responsive img-thumbnail" alt=""/>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/portfolio/whirerabbitnetwork.be.png" class="img-responsive img-thumbnail" alt=""/>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/portfolio/jvervloessem.be.png" class="img-responsive img-thumbnail" alt=""/>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/portfolio/hetverschilvzw.be.png" class="img-responsive img-thumbnail" alt=""/>
+                    </div>
+                </div>
+            </article>
+            <article class="row" id="about">
+                <div class="col-xs-12">
+                    <h2>About</h2>
+                    <p>Hi there. My name is Dries De Peuter and I live in Aarschot, Belgium. I love all things about technology (especially webbased). I try to get/make the best out of the web. Keeping a close eye on performance, ux, accessibility, ... I like to meet new people and solve new problems. </p>
+                    <p>I'm interested in all web-related things. I like playing around with stuff like Symfony, CSS, HTML5. I'm currently setting up a little webfarm in debian/ubuntu. Here I found some more interesting stuff like Loadbalancing, Varnish, CDN, ... </p>
+                </div>
+            </article>
+            <article class="row" id="contact">
+                <div class="col-xs-12">
+                    <h2>Contact</h2>
+                    <form role="form">
+                        <div class="form-group floating-label-form-group">
+                            <label for="form-contact-name">Name</label>
+                            <input name="name" type="text" class="form-control" id="form-contact-name" placeholder="Name">
+                        </div>
+                        <div class="form-group floating-label-form-group">
+                            <label for="form-contact-email">Email</label>
+                            <input name="email" type="email" class="form-control" id="form-contact-email" placeholder="Email">
+                        </div>
+                        <div class="form-group floating-label-form-group">
+                            <label for="form-contact-message">Message</label>
+                            <textarea class="form-control" name="message" id="form-contact-message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Location</h3>
+                    <p>
+                        Gijmelbergstraat 19<br/>
+                        3201 Langdorp<br/>
+                        Belgium
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Web</h3>
+                    <ul class="social-links list-inline">
+                        <li><a href="https://facebook.com/dries.depeuter"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://google.com/+DriesDePeuter"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://github.com/NoUseFreak"><i class="fa fa-github-alt"></i></a></li>
+                        <li><a href="https://linkedin.com/in/driesdepeuter/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/NoUseFreak"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://blog.nousefreak.be"><i class="fa fa-font"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Whut?</h3>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-xs-12">
+                    <p class="text-center">&copy; Dries De Peuter</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
