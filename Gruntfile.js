@@ -1,7 +1,6 @@
 // Gruntfile.js
 
-var _ = require('lodash'),
-    fs = require('fs'),
+var _ = fs = require('fs'),
     path = require('path'),
     timeGrunt = require('time-grunt');
 
